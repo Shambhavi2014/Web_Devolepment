@@ -1,0 +1,21 @@
+h3{
+    color:aquamarine
+}
+p{
+    color:pink
+}
+.purple{
+    color:purple
+}
+#red{
+    color:red
+}
+li:hover{
+    color:black
+}
+ul li:hover{
+    color:orange
+}
+*{
+    color:green
+}
