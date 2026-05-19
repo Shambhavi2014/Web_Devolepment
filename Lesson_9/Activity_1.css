@@ -1,0 +1,118 @@
+body {
+    background-color: aqua
+}
+
+header {
+    background-color: aquamarine
+}
+
+nav {
+    background-color: #eeeeee
+}
+
+#intro {
+    background-color: lightpink;
+    font-family: arial, sans-serif, helvetica;
+text-align:center
+}
+#bestsellers,
+footer {
+    background-color: lightgreen;
+
+}
+
+.main-section content h2 {
+    background-color: lightblue;
+    font-family: arial, sans-serif, helvetica;
+    padding:5px;
+    font-size:24px;
+    text-align:center;
+    margin-top: 50px;
+}
+
+body,
+header,
+nav,
+#intro,
+footer,
+.main-section content h2 {
+    border: 1px solid black;
+}
+
+header,
+nav,
+main-section {
+    border-radius: 10px
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Arial, sans-serif, helvetica;
+    margin: 30px;
+
+}
+
+h2 {
+    color: blueviolet;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+tr:first-child {
+    color: red;
+}
+tr:second-child{
+
+    color:pink
+}
+
+span {
+    color: blue;
+}
+
+button {
+    background-color: pink;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding:5px;
+    border-radius:5px;
+    border:none
+}
+
+ul {
+    list-style-type: none;
+}
+footer p:first-child span{
+    border-radius:5px;
+    margin:10px;
+    width:400px;
+    box-shadow:6px 0px 21px 3px black
+}
+.teacher-info {
+    border: 50px;
+}
+
+li a:hover {
+    color: red;
+}
+
+p {
+    font-size: 18px;
+}
+
+h3 {
+    font: size 20px;
+    text-decoration: underline;
+    font-family: Arial, sans-serif, helvetica;
+}
+
+li a {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
