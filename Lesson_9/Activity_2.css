@@ -1,0 +1,46 @@
+p {
+    color: rgb(34, 219, 49)
+}
+
+.W {
+    color: rgb(255, 0, 195);
+    text-decoration: underline;
+    box-shadow: 10px 10px 10px 3px pink
+}
+
+#hi {
+    color: red
+}
+
+h1 {
+    color: rgb(245, 202, 7);
+    font-family: arial, sans-serif, helvetica;
+    font-weight: 600;
+   box-shadow:10px 10px 10px 3px black 
+
+}
+
+h2 {
+    color: rgb(38, 0, 255);
+    font-family: arial, sans-serif, helvetica;
+    font-weight: bold;
+    background-color: rgb(255, 127, 234)
+}
+html{
+    background-color:aquamarine
+}
+span{
+    color:blue
+}
+body{
+    margin:50px ;
+    border:50px solid black;
+    padding:5px;
+    border-radius:5px;
+}
+footer{
+    margin:100px ;
+    border:50px black;
+padding:5px;
+border-radius: 5px;
+}
