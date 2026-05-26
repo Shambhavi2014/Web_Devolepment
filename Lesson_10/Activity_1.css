@@ -1,0 +1,72 @@
+body{
+    font-family:Arial,sans-serif;
+    background:rgb(251, 249, 249);
+    padding:20px;
+    min-height:1800px
+}
+h1{
+    color:blue;
+    text-align:center;
+    margin-top:65px
+}
+h2{
+    color: blue;
+    margin-top: 30px;
+}
+h3{
+    color: blue;
+        margin-bottom: 10px;
+}
+.score-bar{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background:blue;
+    color:white;
+    padding:14px 20px;
+    font-size:16px;
+    font-weight:bold;
+    text-align:center
+}
+.player-wrapper{
+    position:relative;
+    display:inline;
+    margin-top:15px;
+    }
+    .player-card{
+        background:white;
+        border:2px solid rgb(175, 250, 254);
+        padding:20px 30px;
+        text-align:center;
+        font-size:15px;
+        border-radius:10px;
+    }
+    .winner-badge{
+        position:absolute;
+        top: -12px;
+            right: -12px;
+            background: yellow;
+            color: white;
+            padding: 5px 10px;
+            font-size: 12px;
+            font-weight: bold;
+            border-radius:20px;
+    }
+    .league-label{
+        position:sticky;
+        top:52px;
+        background:rgb(84, 84, 235);
+        color:rgb(233, 229, 229);
+        padding:10px 20px;
+        font-weight:bold;
+        margin:20px 0 10px;
+    }
+    .player-item{
+        background:white;
+        border:2px solid rgb(175, 250, 254);
+        padding:10px 20px;
+        margin:8px 0;
+        width:220px;
+        border-radius:8px;
+    }
