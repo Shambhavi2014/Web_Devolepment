@@ -1,0 +1,183 @@
+  body{
+  background-color: aqua
+   }
+
+   header {
+       background-color: aquamarine;
+       display:flex;
+       justify-content:space-between;
+       align-items:center;
+   }
+
+   nav {
+       background-color: #eeeeee;
+        display: flex;
+            justify-content:center;
+            position:sticky;
+            top:0px
+   }
+
+   #intro {
+       background-color: lightpink;
+       font-family: arial, sans-serif, helvetica;
+       text-align: center;
+   }
+
+   #bestsellers,
+   footer {
+       background-color: lightgreen;
+
+   }
+
+   .main-section content h2 {
+       background-color: lightblue;
+       font-family: arial, sans-serif, helvetica;
+       padding: 5px;
+       font-size: 24px;
+       text-align: center;
+       margin-top: 50px;
+   }
+
+   body,
+   header,
+   nav,
+   #intro,
+   footer,
+   .main-section content h2 {
+       border: 1px solid black;
+   }
+
+   header,
+   nav,
+   main-section {
+       border-radius: 10px;
+   }
+
+   h1 {
+       font-size: 50px;
+       font-family: Arial, sans-serif, helvetica;
+       margin: 30px;
+
+   }
+
+   h2 {
+       color: blueviolet;
+   }
+
+   table,
+   th,
+   td {
+       border: 1px solid black;
+   }
+
+   tr:first-child {
+       color: red;
+   }
+
+   tr:second-child {
+
+       color: pink;
+   }
+
+   span {
+       color: blue;
+   }
+
+   button {
+       background-color: pink;
+       color: white;
+       font-size: 20px;
+       font-weight: bold;
+       padding: 5px;
+       border-radius: 5px;
+       border: none;
+       position:fixed;
+       right:50px;
+       bottom:40px;
+   }
+
+   ul {
+       list-style-type: none;
+   }
+
+   footer p:first-child span {
+       border-radius: 5px;
+       margin: 10px;
+       width: 400px;
+       box-shadow: 6px 0px 21px 3px black;
+   }
+
+   .teacher-info {
+       border: 50px;
+       margin:10px;
+       width: 400px;
+       box-shadow: 6px 0px 21px -3px rgb(53, 41, 41);
+       display:flex;
+       align-items:center;
+       justify-content:center;
+
+   }
+
+   li a:hover {
+       color: red;
+   }
+
+   p {
+       font-size: 18px;
+   }
+
+   h3 {
+       font: size 20px;
+       text-decoration: underline;
+       font-family: Arial, sans-serif, helvetica;
+   }
+
+   li a {
+       color: black;
+       font-size: 20px;
+       font-weight: 600;
+   }
+   nav li{
+    margin:10px;
+    padding:5px;
+    border:1px solid;
+    border-radius:5px;
+   }
+   .teacher-info div:last-child{
+    margin-left:15px;
+    }
+    .main-section-content{
+        padding:20px
+    }
+    table{
+        margin:auto
+    }
+    th,td{
+        padding:10px
+    }
+    footer{
+        padding:20px;
+        display: flex;
+            justify-content: space-between;
+            align-items: center;
+        
+    }
+    #bestsellers h2{
+        padding:20px
+    }
+    ol li{
+        margin-bottom:20px;
+    }
+    #video div{
+        display:flex;
+justify-content:space-around
+    }
+    #teachers{
+        display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+    nav ul{
+        display: flex;
+            justify-content: space-between;
+    }
