@@ -33,14 +33,14 @@ span{
     color:blue
 }
 body{
-    margin:50px ;
-    border:50px solid black;
+    margin:20px ;
+    border:20px solid black;
     padding:5px;
     border-radius:5px;
 }
 footer{
-    margin:100px ;
-    border:50px black;
+    margin:20px ;
+    border:30px black;
 padding:5px;
 border-radius: 5px;
 }
