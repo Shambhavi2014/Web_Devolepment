@@ -1,0 +1,62 @@
+p {
+    color: rgb(34, 219, 49)
+}
+
+.W {
+    color: rgb(255, 0, 195);
+    text-decoration: underline;
+    box-shadow: 10px 10px 10px 3px pink;
+
+}
+
+#hi {
+    color: red
+}
+
+h1 {
+    color: rgb(245, 202, 7);
+    font-family: arial, sans-serif, helvetica;
+    font-weight: 600;
+    box-shadow: 10px 10px 10px 3px black;
+    position: sticky;
+    top: 20px;
+    background: rgb(204, 247, 105);
+}
+
+h2 {
+    color: rgb(38, 0, 255);
+    font-family: arial, sans-serif, helvetica;
+    font-weight: bold;
+    background-color: rgb(255, 127, 234);
+    position: sticky;
+    top: 55px;
+
+}
+
+html {
+    background-color: aquamarine
+}
+
+span {
+    color: blue
+}
+
+body {
+    margin: 20px;
+    border: 20px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+footer {
+    margin: 20px;
+    border: 30px black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.A{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
