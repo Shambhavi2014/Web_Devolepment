@@ -1,0 +1,81 @@
+<html>
+    head>
+    <title>Carousel</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <style>
+          html{
+            scroll-behavior: smooth;
+          }
+          body{
+            position:relative;
+          }
+          .nav-bar{
+            position:fixed;
+            top:0;
+            width:100%;
+            z-index:10000;
+            border-radius:0;
+          }
+          .content-section{
+            padding-top:80%;
+            height:100vh;
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+          }
+          #section1{
+            color:white;
+            background-color: orange;
+          }
+           #section1{
+            color:greenyellow;
+            background-color:white;
+          }
+    </style>
+    </head>
+    <body>
+        <nav class="nav navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="a">Dogs Breeds</a>
+                </div>
+                <ul class="nav navbar nav" id="nav-links">
+                    <li id="menu-section1" class="active"><a href="#section1">Section 1</a></li>
+                    <li id="menu-section1"><a href="#section2">Section 2</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div id="section1" class="container-fluid content-section">
+            <div class="container">
+                <h1>Section-1</h1>
+                <h2>Dog Breeds</h2>
+                <p>There are many types of Dog Breeds</p><br>
+                <h3>Golden Retreviers</h3>
+                <p>They are called the "family dog" and are super friendly to everyone!.They are great family dogs and can sense when you are feeling down and cheer you up!</p><br>
+                <h3>German Shepherd</h3>
+                <p>German Shepherd is a highly intelligent, loyal, and versatile working dog, known for its strength, obedience, and
+                protective instincts.</p>
+            </div>
+        </div>
+
+        <div id="section2" class="container-fluid content-section">
+            <div class="container">
+                <h1>Section-2</h1>
+                <h2>Dog Breeds</h2>
+                <p>There are many types of Dog Breeds</p><br>
+                <h3>Golden Retreviers</h3>
+                <img src="https://cdn.britannica.com/79/232779-050-6B0411D7/German-Shepherd-dog-Alsatian.jpg" height="70%" width="80%"
+                    alt="Image 1"><br>
+                <h3>German Shepherd</h3>
+            <img src="https://cdn.pixabay.com/photo/2021/05/07/07/40/german-shepherd-dog-6235368_1280.jpg" height="70%" width="80%"
+                alt="Image 2">
+            </div>
+        </div>
+    </body>
+</html>
