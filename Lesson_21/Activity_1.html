@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>HTML DOM</title>
+        <style>
+            .alert{
+                background-color: aquamarine;
+                color: blue;
+                padding: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="heading">Welcome</h1> 
+        <p>Lets create a division</p>   
+        <p>Using Javascript!</p>
+        <script>
+            let div=document.createElement("div");
+            div.id="paragraph";
+             div.className = "alert";
+             div.innerHTML ="<p>Congrats! you created a div</p>";
+             document.body.append(div);
+
+             let heading=document.getElementById("heading");
+             heading.innerHTML="&#128512;";
+        </script>
+    </body>
+</html>
