@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>SOLAR SYSTEM</title>
+    <style>
+        .P {
+            background-color: rgb(255, 223, 127);
+            color: rgb(166, 0, 255);
+            padding: 5px;
+            }
+         #F {
+            background-color: rgb(127, 255, 150);
+            color: rgb(166, 0, 255);
+            padding: 5px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <h1 id="heading">Solar System</h1>
+    <p>There are 8 planets in our solar systemm</p>
+    <script>
+        let div = document.createElement("planets");
+        div.className = "P";
+        div.innerHTML = "<p>Mercury, Venus , Earth , Mars , Jupitar , Saturn , Uranus , Neptune</p>";
+        document.body.append(planets);
+
+       let div = document.createElement("fact");
+            div.id = "F";
+            div.innerHTML = "<p>Mercury ,Venus , Eath and mars are called inner ring planets and Jupitar Saturn,Uranus and Neptune are known as gaseous or outer ring planets</p>";
+            document.body.append(fact);
+
+       
+    </script>
+</body>
+
+</html>

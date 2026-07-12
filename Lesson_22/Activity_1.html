@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Samples of an Event</title>
+        <style>
+            body.dark{
+                color:white ;
+                background-color:black;
+            }
+            button{
+                display:block;
+                margin:5px;
+            }
+            .textentry{
+                margin-top:12px;
+                margin-bottom:15px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>The Basement</h1>
+        <p id="story">I was finding my friend ,and she was hiding in  the basement</p>
+        <button onclick="go_basement()">Go to Basement</button>
+        <div class="textentry">
+            You hear a spooky noise ,"Who's there?"<input type="text" id="name">
+            <button onclick="check_basement()">Check the basement</button>
+        </div>
+        
+        <script>
+            function go_basement(){
+                document.body.className="dark"
+            }
+             function check_basement() {
+                var personName=document.getElementById("name").value
+                alert("you hear a spooky voice calling your name , "+personName + "!" +" Come closed in trapped")
+             }
+        </script>
+    </body>
+</html>
