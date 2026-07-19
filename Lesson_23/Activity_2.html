@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Change your Background</title>
+        <style>
+            button{
+                margin:auto;
+                width:100px;
+                height:100px;
+            }
+        </style>
+    </head>
+
+    <body class="bg">
+        <center>
+        <h2>Change the Background</h2>
+        
+        <button onclick="pick1()">Flower</button>
+        <button onclick="pick2()">Window</button>
+        <button onclick="pick3()">Cat</button>
+        </center>
+        
+        <script>
+            let bg = document.querySelector(".bg")
+            function pick1(){
+            bg.style.backgroundImage ="url('https://jooinn.com/images/flower-background-1.jpg')"
+            }
+             function pick2() {
+                    bg.style.backgroundImage = "url('https://png.pngtree.com/png-clipart/20241231/original/pngtree-window-clipart-png-image_18423026.png')"
+                }
+                 function pick3() {
+                        bg.style.backgroundImage = "url('https://static.vecteezy.com/system/resources/previews/003/423/841/original/cute-cat-cartoon-doodle-seamless-pattern-background-wallpaper-vector.jpg')"
+                    }
+        </script>
+    </body>
+
+</html>
