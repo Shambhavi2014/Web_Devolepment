@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Example</title>
+    </head>
+    <body>
+        <p class="class1" id="result1">Example</p>
+        <p class="class2" id="result2">Example</p>
+        <p class="class1" id="result3">Example</p>
+
+        <p class="class2" id="result4">Example</p>
+        <p class="class1" id="result5">Example</p>
+        <p class="class2" id="result6">Example</p>
+
+        <button onclick="button1()">Click me to fill class1</button>
+        <button onclick="button2()">Click me to fill class2</button>
+        <button onclick="button3()">Click me to see a special hidden message</button>
+        <script>
+            const class_1 =document.getElementsByClassName("class1")
+            const class_2 = document.getElementsByClassName("class2")
+            const result4 = document.getElementById("result3")
+            function button1(){
+                for(let i=0; i< class_1.length; i++){
+                    class_1[i].innerHTML="Updated class1";
+                    class_1[i].style.color ="green"
+                }
+            }
+
+            function button2(){
+                for(let i=0;i<class_2.length;i++){
+                class_2[i].innerHTML="Updated class2";
+                class_2[i].style.color="blue"
+            }
+        }
+            function button3(){
+                result4.innerHTML="Hello !";
+                result4.style.color="pink"
+            }
+        </script>
+    </body>
+</html>
