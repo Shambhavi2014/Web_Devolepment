@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Sliders and Carousals</title>
+    </head>
+    <body>
+        <section>
+            <img class="sliders" src="flower1.jpeg" alt="Image not Found" height="500px">
+            <img class="sliders" src="flower2.avif" alt="Image not Found" height="500px">
+            <img class="sliders" src="flower3.jpg" alt="Image not Found" height="500px">
+            <img class="sliders" src="flower4.webp" alt="Image not Found" height="500px">
+        </section>
+
+        <script>
+            var  myIndex= 0;
+            slide_show();
+
+            function slide_show(){
+                var i;
+                var x= document.getElementsByClassName("sliders");
+                for(i=0;i<x.length;i++){
+                x[i].style.display="none";
+                }
+                myIndex++
+                if(myIndex > x.length)(myIndex = 1)
+                x[myIndex-1].style.display="block";
+            setTimeout(slide_show , 2000)
+
+
+            }
+        </script>
+    </body>
+</html>
