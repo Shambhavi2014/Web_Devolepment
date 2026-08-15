@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Adding More Images</title>
+        <style>
+            body{
+                background-color: black;
+            }
+            h1{
+                color:rgb(243, 149, 152);
+            }
+            h2{
+                color:rgb(255, 250, 155);
+            }
+            p{
+                color:aliceblue;
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>MCDONALDS</h1>
+        <h2>Some Tasty Food at our Restaurant!</h2>
+<section>
+    <img class="mySlides" src="burger_1.jpg" style="height:500px; width:500px;">
+    <img class="mySlides" src="pizza_1.webp" style="height:500px; width:500px;">
+    <img class="mySlides" src="french fries_1.webp" style="height:500px; width:500px;">
+</section>
+<p> Come eat yummy and tasty food!</p>
+</center>
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) { myIndex = 1 }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 3000);
+    }
+</script>
+</body>
+</html>
