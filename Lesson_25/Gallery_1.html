@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Flowers</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div class="topnav">
+            <a class="active" href="Activity_1.html">Home</a>
+            <a class="active" href="Gallery_1.html">Gallery</a>
+            <a class="active" href="About_1.html">About</a>
+            <a class="active" href="Contact_1.html">Contact</a>
+        </div>
+    <center>
+    <h2 class="gallery">Here are different types of flowers</h2>
+<section>
+    <img class="sliders" src="flower1.jpeg" alt="Image not Found" height="400px">
+    <img class="sliders" src="flower2.avif" alt="Image not Found" height="400px">
+    <img class="sliders" src="flower3.jpg" alt="Image not Found" height="400px">
+    <img class="sliders" src="flower4.webp" alt="Image not Found" height="400px">
+    <h3 class="gallery">There is a estimated about 350,000 to 400,000 thounds species of flowers in the world!.</h3>
+</section>
+</center>
+<script>
+    var myIndex = 0;
+    slide_show();
+
+    function slide_show() {
+        var i;
+        var x = document.getElementsByClassName("sliders");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        myIndex++
+        if (myIndex > x.length) (myIndex = 1)
+        x[myIndex - 1].style.display = "block";
+        setTimeout(slide_show, 2000)
+    }
+   </script>
+   </body>
+   </html>
+    
