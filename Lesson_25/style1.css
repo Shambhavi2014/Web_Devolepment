@@ -1,0 +1,41 @@
+.topImage {
+    position: relative;
+    opacity: 0.7;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
+    background-image: url('flower2.avif');
+}
+
+.section {
+    text-align: center;
+    padding: 50px, 80px;
+}
+
+.section-dark {
+    background-color: rgb(60, 49, 49);
+    color: aliceblue;
+}
+
+.topImagetext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.topImagetext .border {
+    background-color: rgb(60, 49, 49);
+    color: aliceblue;
+    padding: 20px;
+}
+
+.topImagetext .border.trans {
+    background-image: transparent;
+}
