@@ -1,0 +1,53 @@
+body,html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-sarif;
+    font-weight:400;
+    line-height:1.8cm;
+    color:light grey;
+    background-color:aqua
+}
+.topnav{
+    overflow:hidden;
+    background-color:black;
+
+}
+.topnav a {
+    float:left;
+    color:aquamarine;
+text-align: center;
+padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.topnav a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.topnav a.active {
+    background-color: yellow;
+    color: black;
+
+}.pimg1,
+.pimg2,
+.pimg2
+.pimg3{
+    position:relative;
+    opacity:0,70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+
+}
+.pimg3{
+    background-image: url('https: //thumbs.dreamstime.com/b/chinese-food-plate-chicken-chow-mein-popular-oriental-dish-noodles-vegetables-75054862.jpg');
+    min-height:400px;
+}
+.section{
+    text-align:center;
+    
+}
