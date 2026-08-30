@@ -2,9 +2,9 @@ body,html{
     height:100%;
     margin:0;
     font-size:16px;
-    font-family:"Lato", sans-sarif;
+    font-family:"Lato", sans-serif;
     font-weight:400;
-    line-height:1.8cm;
+    line-height:1.8em;
     color:light grey;
     background-color:aqua
 }
@@ -31,12 +31,12 @@ padding: 14px 16px;
     background-color: yellow;
     color: black;
 
-}.pimg1,
+}
+.pimg1,
 .pimg2,
-.pimg2
 .pimg3{
     position:relative;
-    opacity:0,70;
+    opacity:0.70;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -44,10 +44,44 @@ padding: 14px 16px;
 
 }
 .pimg3{
-    background-image: url('https: //thumbs.dreamstime.com/b/chinese-food-plate-chicken-chow-mein-popular-oriental-dish-noodles-vegetables-75054862.jpg');
+    background-image: url('https://www.foodiaq.com/wp-content/uploads/2024/02/chicken-curry-and-rice-scaled.jpg');
     min-height:400px;
 }
 .section{
     text-align:center;
-    
+    padding:50px 80px;
+}
+.section-light{
+    background-color: aliceblue;
+    color:black;
+}
+.section-dark {
+    background-color: black;
+    color: aliceblue;
+}
+.ptext{
+    position:absolute;
+    top:50%;
+    width:100%;
+    text-align:center;
+    color:black;
+    font-size:27px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+}
+.ptext .border{
+    background-color: black;
+    color:aliceblue;
+    padding:20px;
+}
+.ptext .border.trans{
+    background-color: transparent;
+}
+.pimg2{
+    background-image: url('https://dishingouthealth.com/wp-content/uploads/2022/09/CreamyTomatoPasta_Styled1.jpg');
+    min-height: 400px;
+}
+.pimg1 {
+    background-image: url('https://www.thespruceeats.com/thmb/9sjJKTJ1yw1BqtHv2Zayaj6Zt_k=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-639704020-5c4a63ecc9e77c00017bfebf.jpg');
+    min-height: 400px;
 }
